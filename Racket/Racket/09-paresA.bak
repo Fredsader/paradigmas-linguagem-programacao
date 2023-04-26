@@ -1,0 +1,26 @@
+;; Introdução à Linguagem Scheme-Racket
+;; Prof. Ausberto S. Castro Vera       (ascv@uenf.br)
+;; UENF-CCT-LCMAT - Curso de Ciencia da Computacao
+;; Abril 2023
+;; Aluno: Fulano      <===========  escreva seu nome aqui
+;;
+#lang racket      ;; define a linguagem default
+; ------------------------------------------------
+(newline)
+(display "  Paradigmas de Linguagens de Programação (Prof. Ausberto Castro), 2023")
+(newline)
+(display "  Aluno:  Fulano ")
+(newline)
+;;
+;;
+
+(define x (cons 7 9))
+(define y (cons 'a 4))
+
+(newline)
+(display "O primeiro elemento do par x = ")   
+(car x)                 ;; primeiro
+
+(newline)
+(display "O segundo elemento do par x = ")
+(cdr x)                 ;; resto
