@@ -1,2 +1,2 @@
-# paradigmas-linguagem-programacao
- Material das aulas de paradigmas
+# paradigmas-linguagens-programacao
+ Material das aulas de Paradigmas de Linguagem de Programação
